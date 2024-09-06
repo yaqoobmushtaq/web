@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script src="https://kit.fontawesome.com/ca2cc04c0c.js" crossorigin="anonymous"></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>React</title>
+  </head>
+  <body>
+    <div class="bg-white-container margin-auto">
+      <!-- Header -->
+      <div class="header flex justify-between item-center">
+        <div class="nav-menu flex item-center">
+          <div class="logo">
+            <img src="./logo.png" alt="" srcset="" />
+          </div>
+          <div class="nav-list">
+            <ul class="menu-list flex list-style">
+              <li>Product</li>
+              <li>App</li>
+              <li>About</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-btn-container">
+          <button class="nav-btn">LOG IN</button>
+          <button class="nav-btn">SIGN UP</button>
+        </div>
+      </div>
+      <!-- Boxes -->
+      <div class="box-container flex margin-auto gap-20">
+        <!-- black Box -->
+
+        <div class="blackBox flex flex1 column justify-between border-radius-15">
+          <div class="blaackBox content">
+            <h6>MORE OFFERS</h6>
+            <p>THERE IS<br/>SOMETHING ELSE<br/>FOR YOU</p>
+          </div>
+          <div class="product flex justify-between item-center">
+            <div class="product-content">
+                <span>Shop</span>
+                <h5>All Products</h5>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex column flex1">
+          <!-- gray Box -->
+          <div class="grayBox flex flex1 column justify-between border-radius-15 padding-15">
+            <h6 class="heading">WORLD OF HEARING TECHNOLOGY</h6>
+            <p>View our blog</p>
+          </div>
+          <div class="flex flex1 purple-green gap-20">
+            <!-- blueviolet Box -->
+            <div class="purpleBox flex flex1 column justify-between border-radius-15 padding-15">
+              <h6>Discover<br />Our History</h6>
+              <p>About us</p>
+            </div>
+            <!-- green Box -->
+            <div class="greenBox flex flex1 column justify-between border-radius-15 padding-15">
+              <h6>Have<br />Some Question</h6>
+              <p>Contact Us</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body{
+  background : #fcfcfc;
+}
+
+.flex{
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.column{
+flex-direction: column;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.container{
+  height: 54vh;
+  width: 50%;
+  margin: auto; 
+  background: #fff;
+  border: 1px ;
+  border-radius: 12px;
+}
+.heading{
+  text-align: center;
+}
+.add{
+  padding:  15px 15px 20px 15px;
+}
+.button{
+  padding: 10px 20px;
+  background-color: rgb(70, 137, 224);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.box{
+  padding: 0px 15px 0 15px;
+}
+
+.span1{
+  color: rgb(53, 106, 219);
+  background: none;
+  border: none;
+}
+.span{
+  color: rgb(228, 18, 18);
+  padding-right:8px;
+  background: none;
+  border: none;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+  width: 30px;
+}
+.task{
+  color: grey;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.click{
+  padding: 20px 0;
+}
+.gap5{
+  gap: 15px;
+}
+.font{
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.add-input{
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.border-bottom{
+  border-bottom: 1px solid;
+  padding: 16px 0;
+}

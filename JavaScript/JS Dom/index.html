@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start Up duplicate</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/88b4c161d5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="flex justify-center align-center">
+    <section class="startup">
+      <h1>Add Startup</h1>
+
+      <div class="flex justify-between align-center row">
+        <div class="flex align-center width-30">
+          <i class="fa-solid fa-check" style="color: #4dc8ae"></i>
+          <p class="margin-left">Finmo Inc</p>
+        </div>
+
+        <div class="flex">
+          <p class="margin-left fintech category">FinTech</p>
+          <p class="margin-left category payment">Payment</p>
+        </div>
+
+        <div class="rating">8.5</div>
+
+        <div class="arrow flex" id="arrow">
+          <i class="fa-solid fa-chevron-right" style="color: #552cf6"></i>
+        </div>
+      </div>
+
+      <section id="data"></section>
+
+      <section class="input-container flex gap">
+        <div class="flex column flex-1">
+          <label for="name" class="label">Name</label>
+          <input type="text" class="input" id="name" />
+        </div>
+
+        <div class="flex column flex-2">
+          <label for="Tags" class="label">Tags</label>
+          <input type="text" class="input" id="tags" />
+        </div>
+
+        <div class="flex column">
+          <label for="Score" class="label">Score</label>
+          <input type="number" class="input" id="score" />
+        </div>
+
+        <button id="plus">
+          <i class="fa-solid fa-plus" style="color: #fff"></i>
+        </button>
+      </section>
+
+      <!-- <section class="flex flex-end">
+    <div class="buttons flex gap">
+      <button class="btn">Cancel</button>
+      <button class="btn"> <i class="fa-solid fa-check" style="color: #552CF6"></i> Save</button>
+    </div>
+  </section> -->
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

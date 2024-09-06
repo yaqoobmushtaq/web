@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;  
+}
+
+body{ 
+  background-color: #F7F7F7;
+  height: 100vh;
+}
+
+.display-none{
+  display: none;
+}
+
+.display-block{
+  display: block;
+}
+.flex {
+  display: flex;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.item-center {
+  align-items: center;
+}
+.column {
+  flex-direction: column;
+}
+.text-center {
+  text-align: center;
+}
+
+.card {
+  /* border: 2px solid black;  */
+  width: 30%;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.width-80{
+  width: 80%;
+}
+
+.margin-10{
+  margin: 10px 0;
+}
+
+.side-heading{
+  margin-right: 20px;
+}
+
+.line-height{
+  line-height: 1.5rem;
+}
+
+.input-tag{
+  padding: 10px 20px;
+}
+
+
+.income{
+  color: green;
+}
+
+.expense{
+  color: red;
+}
+
+.item-green{
+  padding: 10px;
+  border-radius: 5px;
+  border-right: 5px solid green;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.item-red{
+  padding: 10px;
+  border-radius: 5px;
+  border-right: 5px solid red;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.btn{
+  background-color: #4887EE;
+  border: none;
+  color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.your-balance{
+  margin: 10px 0;
+  
+}

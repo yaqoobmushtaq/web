@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expenses Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex justify-center item-center">
+  <div class="card flex item-center column">
+    <div class="heading">
+      <h2>Simple Expense Tracker</h2>
+    </div>
+    <div class="your-balance text-center">
+      <div>Your Balance</div>
+      <div id="balance-id">$ 0</div>
+    </div>
+    <div class="income-expense width-80 flex justify-around">
+      <div class="income">
+        <h3>Income</h3>
+        <p id="income-id">$ 0</p>
+      </div>
+      <div class="expense">
+        <h3>Expense</h3>
+        <p id="expense-id">$ 0</p>
+      </div>
+    </div>
+
+
+    <div class="history width-80">
+      <h3>History</h3>
+      <div class="history-item">
+        
+      </div>
+    </div>
+  
+    <div class="add-trans">
+      <h2>Add New Transaction</h2>
+    </div>
+  
+
+
+    <div id="content" class="width-80 line-height">  
+      <div class="width-100 flex margin-10">
+        <label for="type" class="side-heading">Type</label>
+        <select name="type" id="type" class="flex-1">
+          <option value="income">income</option>
+          <option value="expense">expense</option>
+        </select>
+      </div>
+      
+      <div class="width-100 flex margin-10">
+        <label for="date" class="side-heading">Date</label>
+        <input type="date" name="date" id="date" class="flex-1 ">
+      </div>
+    
+      <div>
+        <label for="amount" class="display-block">Enter a Amount :</label>
+        <input type="number" name="amount" id="amount" class="width-100 input-tag">
+      </div>
+      <div>
+        <label for="title" class="display-block">Title : </label>
+        <input type="text" name="title" id="title" class="width-100 input-tag">
+      </div>
+      <div>
+        <label for="discription" class="display-block">Description</label>
+        <input type="text" name="description" id="description" class="width-100 input-tag">
+      </div>
+      
+      <button id="add" class="width-100 btn">Add</button>
+      
+    </div>
+  </div>
+
+  
+  
+  
+  
+  <div id="showCal">
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
